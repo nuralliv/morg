@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio Website HTML CSS</title>
+   <link rel="stylesheet" href="./gos.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <header>
+      <a href="#" class="logo" onclick="myFunction()">Dark</a>
+      <ul class="navbar">
+         <li><a href="#home">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#work">Work</a></li>
+         <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="bx bx-menu" id="menu-icon"></div>
+   </header>
+   <section class="home" id="home">
+      <div class="home-text">
+         <h5>Hello, I'm Emad,</h5>
+         <h1>Full stack <br> Developer</h1>
+
+         <div class="button">
+            <a href="#" class="btn2" onclick="openPopup()">Model</a>
+         </div>
+      </div>
+      <div class="home-img">
+         <img src="https://cdn.pixabay.com/photo/2023/02/08/14/02/ai-generated-7776701_960_720.jpg" alt="">
+      </div>
+      <div class="popup" id="popup">
+         <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Z887uufI1eGoh28uZFIeaapWCHnwlVCLQF2mHiUeUg&s" />
+         <h2>Thank You!</h2>
+         <p>Your details has been successfully submitted. Thanks!</p>
+         <button type="button" onclick="closePopup()">OK</button>
+      </div>
+   </section>
+   <section class="about" id="about">
+      <div class="center">
+         <div class="h-main">
+            <div class="h-text">
+               <h2>about</h2>
+            </div>
+            <div class="h-button">
+               <a href="#" class="hh-btn">Read me</a>
+            </div>
+         </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatum odit ipsa, facere labore nemo
+            earum nobis repellendus laborum vero necessitatibus perferendis molestias, sapiente est rerum dolores minus!
+            Nihil, nemo.</p>
+      </div>
+      <div class="about-content">
+         <div class="box">
+            <h3>Front-End</h3>
+            <a href="#">60+ Hours Experience</a>
+         </div>
+         <div class="box">
+            <h3>Python</h3>
+            <a href="#">60+ Hours Experience</a>
+         </div>
+         <div class="box">
+            <h3>Machine Learning</h3>
+            <a href="#">60+ Hours Experience</a>
+         </div>
+         <div class="box">
+            <h3>Front-End</h3>
+            <a href="#">60+ Hours Experience</a>
+         </div>
+      </div>
+   </section>
+   <section class="work" id="work">
+      <div class="center">
+         <div class="h-main">
+            <div class="h-text">
+               <h2>work</h2>
+            </div>
+            <div class="h-button">
+               <a href="#" class="hh-btn">See all</a>
+            </div>
+         </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatum odit ipsa, facere labore nemo
+            earum nobis repellendus laborum vero necessitatibus perferendis molestias, sapiente est rerum dolores minus!
+            Nihil, nemo.</p>
+      </div>
+      <div class="work-content">
+         <div class="row">
+            <img src="https://lingkaran.co/blog/wp-content/uploads/2021/09/Banner_Portfolio-01.png" alt="">
+            <div class="main-row">
+               <div class="row-text">
+                  <h5>HTML - CSS - JS</h5>
+                  <h4>DESIGN PORTFOLIO</h4>
+               </div>
+               <div class="row-icon">
+                  <i class="ri-github-fill"></i>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <img src="https://lingkaran.co/blog/wp-content/uploads/2021/09/Banner_Portfolio-01.png" alt="">
+            <div class="main-row">
+               <div class="row-text">
+                  <h5>HTML - CSS - JS</h5>
+                  <h4>DESIGN PORTFOLIO</h4>
+               </div>
+               <div class="row-icon">
+                  <i class="ri-github-fill"></i>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <img src="https://lingkaran.co/blog/wp-content/uploads/2021/09/Banner_Portfolio-01.png" alt="">
+            <div class="main-row">
+               <div class="row-text">
+                  <h5>HTML - CSS - JS</h5>
+                  <h4>DESIGN PORTFOLIO</h4>
+               </div>
+               <div class="row-icon">
+                  <i class="ri-github-fill"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="contact" id="contact">
+      <div class="center">
+         <div class="h-main">
+            <div class="h-text">
+               <h2>contact</h2>
+            </div>
+            <div class="h-button">
+               <a href="#" class="hh-btn">Ping me</a>
+            </div>
+         </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatum odit ipsa, facere labore nemo
+            earum nobis repellendus laborum vero necessitatibus perferendis molestias, sapiente est rerum dolores minus!
+            Nihil, nemo.</p>
+         <div class="contact-form" id="cuntactForm">
+            <form action="">
+               <input type="text" id="name" placeholder="Your name" required>
+               <input type="text" id="email" placeholder="Email address.." required>
+               <textarea cols="30" id="message" rows="10" placeholder="Write a message here..." required></textarea>
+               <input type="submit" id="contactForm" value="Send Message" class="send-btn">
+            </form>
+         </div>
+      </div>
+   </section>
+   <section class="tabContainer">
+      <div class="h-text">
+         <h2>Tabs</h2>
+      </div>
+      <div class="buttonContainer">
+         <button onclick="showPanel(0)">Tab 1</button>
+         <button onclick="showPanel(1)">Tab 2</button>
+         <button onclick="showPanel(2)">Tab 3</button>
+         <button onclick="showPanel(3)">Tab 4</button>
+      </div>
+      <div class="tabPanel">Tab 1:Content</div>
+      <div class="tabPanel">Tab 2:Content</div>
+      <div class="tabPanel">Tab 3:Content</div>
+      <div class="tabPanel">Tab 4:Content</div>
+   </section>
+   <div class="h-text" style="margin-left: 8%; margin-top: 10vh;">
+      <h2>slider</h2>
+   </div>
+
+   <section class="slider">
+
+      <div class="slides">
+         <img src="https://roflzoo.com/pics/201402/oh-hai.jpg" alt="Photo 1" />
+         <img
+            src="https://img.freepik.com/premium-photo/squirrel-wearing-oversized-sunglasses-tiny-ai-generated_731790-18962.jpg"
+            alt="Photo 2" />
+         <img
+            src="https://imageio.forbes.com/specials-images/imageserve/62dac39871a00c4c7fc1eca1/An-alpaca-looking-like-it-is-smoking-a-cigar--Comedy-Pets-Photo-Awards/960x0.jpg?height=711&width=711&fit=bounds"
+            alt="Photo 3" />
+      </div>
+      <button class="prevBtn">&#60;</button>
+      <button class="nextBtn">&#62;</button>
+   </section>
+   <section class="footer">
+      <div class="footer-content">
+         <div class="footer-left">
+            <h3>Get in Touch</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Vero animi a optio aliquam voluptates
+               ipsum.</p>
+            <div class="social">
+               <a href="#"></a>
+               <a href="#"></i></a>
+               <a href="#"></i></a>
+            </div>
+         </div>
+         <div class="footer-right"></div>
+      </div>
+   </section>
+   <div class="end-content">
+      <a href="#home" class="scroll-top"><i class="ri-arrow-up-s-fill"></i></a>
+      <div class="copytight">
+         <p>© 2024 Emad . All RIGHTS RESERVED </p>
+      </div>
+      <div class="copytight">
+         <p>DEVELOPED BY TAHMID</p>
+      </div>
+   </div>
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+   <script src="firebase.js"></script>
+   <script src="gos.js"></script>
+</body>
+
+</html>
